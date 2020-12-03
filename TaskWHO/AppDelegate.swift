@@ -11,7 +11,8 @@ import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,CLLocationManagerDelegate{
-    
+    var window: UIWindow?
+
     let locationManager = CLLocationManager()
     let geoCoder = CLGeocoder()
     
